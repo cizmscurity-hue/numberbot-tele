@@ -3,14 +3,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8941229095:AAERgTxif-3QVXFtrMU8C62zGIo4c5cojQ8")
-OWNER_ID = int(os.getenv("OWNER_ID", "7153290120"))
-OTP_GROUP_ID = "-1003888953212"
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9290426526:AAEEPwIgoqQ_8XIBHCPLlhe1zsZAPbOr8eU")
+OWNER_ID = int(os.getenv("OWNER_ID", "7958819352"))
+OTP_GROUP_ID = "-1003942424151"
 
-DEFAULT_SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@world_method_tg")
+DEFAULT_SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "https://t.me/Viftyhn")
 DEFAULT_REFERRAL_AMOUNT = float(os.getenv("REFERRAL_AMOUNT", "0.001"))
 DEFAULT_MIN_WITHDRAW = float(os.getenv("MIN_WITHDRAW", "0.5"))
-DEFAULT_OTP_GROUP_LINK = os.getenv("OTP_GROUP_LINK", "https://t.me/fast_track_otp")
+DEFAULT_OTP_GROUP_LINK = os.getenv("OTP_GROUP_LINK", "https://t.me/+AZBV0HXudXVjM2U1")
 
 DB_PATH = "bot_database.db"
 
